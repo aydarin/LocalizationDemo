@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  LocalizationDemo
-//
-//  Created by Aydar Mukhametzyanov on 10/23/17.
-//  Copyright © 2017 Aydar Mukhametzyanov. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
