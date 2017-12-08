@@ -19,7 +19,8 @@ class MenuViewController: UIViewController {
     
     private let items = [MenuItem(title: "Plurals", segueIdentifier: "plurals"),
                          MenuItem(title: "Adaptive strings", segueIdentifier: "adaptive"),
-                         MenuItem(title: "Combined strings", segueIdentifier: "combined")]
+                         MenuItem(title: "Combined strings", segueIdentifier: "combined"),
+                         MenuItem(title: "Contained viewController", segueIdentifier: "contained")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
