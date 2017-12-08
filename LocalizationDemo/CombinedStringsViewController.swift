@@ -53,13 +53,13 @@ struct StringsModel {
     
 }
 
-class ViewController: UIViewController {
+class CombinedStringsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
     fileprivate let model = StringsModel(withPlurals: ["message_months", "days"],
                                          adaptiveKeys: ["ico"],
-                                         widths: [20, 25, 50])
+                                         widths: [20, 25, 50]) // <-- number of "M"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,10 +73,10 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate {
+extension CombinedStringsViewController: UITableViewDelegate {
 }
 
-extension ViewController: UITableViewDataSource {
+extension CombinedStringsViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return model.sections.count
