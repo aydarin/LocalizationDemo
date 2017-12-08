@@ -2,31 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>long_message</key>
+	<key>ico</key>
 	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>I have %#@cats@ and %#@dogs@</string>
-		<key>cats</key>
+		<key>NSStringVariableWidthRuleType</key>
 		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
-			<key>one</key>
-			<string>%d cat</string>
-			<key>other</key>
-			<string>%d cats</string>
-		</dict>
-		<key>dogs</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
-			<key>one</key>
-			<string>%d dog</string>
-			<key>other</key>
-			<string>%d dogs</string>
+			<key>20</key>
+			<string>ICO</string>
+			<key>25</key>
+			<string>Initial Coin Offering</string>
+			<key>50</key>
+			<string>Initial Coin Offering (ICO)</string>
 		</dict>
 	</dict>
 	<key>days</key>

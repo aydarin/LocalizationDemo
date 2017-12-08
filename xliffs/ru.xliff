@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="LocalizationDemo/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext">
+  <file original="LocalizationDemo/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
     </header>
     <body>
       <trans-unit id="Dq8-UQ-ylh.text">
         <source>Localization</source>
+        <target>Локализация</target>
         <note>Class = "UILabel"; text = "Localization"; ObjectID = "Dq8-UQ-ylh";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="LocalizationDemo/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext">
+  <file original="LocalizationDemo/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
     </header>
@@ -22,23 +23,24 @@
       </trans-unit>
     </body>
   </file>
-  <file original="LocalizationDemo/Info.plist" source-language="en" datatype="plaintext">
+  <file original="LocalizationDemo/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>Localization</source>
+        <target>Локализация</target>
       </trans-unit>
     </body>
   </file>
-  <file original="LocalizationDemo/Localizable.strings" source-language="en" datatype="plaintext">
+  <file original="LocalizationDemo/Localizable.strings" source-language="en" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
     </header>
     <body/>
   </file>
-  <file original="LocalizationDemo/en.lproj/Localizable.stringsdict" source-language="en" datatype="plaintext">
+  <file original="LocalizationDemo/en.lproj/Localizable.stringsdict" source-language="en" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
     </header>

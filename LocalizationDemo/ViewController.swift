@@ -10,9 +10,20 @@ struct StringsModel {
         let string: String
     }
     
-    let sections: [Section]
+    private(set) var sections: [Section] = []
     
-    init(withKeys keys: [String], count: Int = 5) {
+    init(withPlurals pluralKeys: [String],
+         count: Int = 5,
+         adaptiveKeys: [String],
+         widths: [Int]) {
+        
+        var sections = pluralsSections(withKeys: pluralKeys, count: count)
+        sections.append(contentsOf: adaptiveSections(withKeys: adaptiveKeys, widths: widths))
+        
+        self.sections = sections
+    }
+    
+    private func pluralsSections(withKeys keys: [String], count: Int) -> [Section] {
         var sections: [Section] = []
         
         for key in keys {
@@ -27,7 +38,17 @@ struct StringsModel {
             sections.append(Section(rows: rows))
         }
         
-        self.sections = sections
+        return sections
+    }
+    
+    private func adaptiveSections(withKeys keys: [String], widths: [Int]) -> [Section] {
+        var sections: [Section] = []
+        
+        for key in keys {
+            sections.append(Section(rows: [Row(string: NSLocalizedString(key, comment: ""))]))
+        }
+    
+        return sections
     }
     
 }
@@ -36,10 +57,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    fileprivate let model = StringsModel(withKeys: ["message_months", "days", "long_message"])
+    fileprivate let model = StringsModel(withPlurals: ["message_months", "days"],
+                                         adaptiveKeys: ["ico"],
+                                         widths: [20, 25, 50])
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.reloadData()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
         tableView.reloadData()
     }
 }
@@ -59,7 +88,8 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = model.sections[indexPath.section].rows[indexPath.row].string
+        let string = model.sections[indexPath.section].rows[indexPath.row].string as NSString
+        cell.textLabel?.text = string as String
         return cell
     }
     

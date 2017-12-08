@@ -64,6 +64,45 @@
       <trans-unit id="/days:dict/value:dict/zero:dict/:string">
         <source>%d days</source>
       </trans-unit>
+      <trans-unit id="/long_message:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>I have %#@cats@ and %#@dogs@</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/few:dict/:string">
+        <source>%d cats</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/many:dict/:string">
+        <source>%d cats</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/one:dict/:string">
+        <source>%d cat</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/other:dict/:string">
+        <source>%d cats</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/two:dict/:string">
+        <source>%d cats</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/cats:dict/zero:dict/:string">
+        <source>%d cats</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/few:dict/:string">
+        <source>%d dogs</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/many:dict/:string">
+        <source>%d dogs</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/one:dict/:string">
+        <source>%d dog</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/other:dict/:string">
+        <source>%d dogs</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/two:dict/:string">
+        <source>%d dogs</source>
+      </trans-unit>
+      <trans-unit id="/long_message:dict/dogs:dict/zero:dict/:string">
+        <source>%d dogs</source>
+      </trans-unit>
       <trans-unit id="/message_months:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@days@</source>
       </trans-unit>
