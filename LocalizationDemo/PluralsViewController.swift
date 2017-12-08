@@ -31,11 +31,11 @@ class PluralsViewController: UIViewController {
     
     // MARK: - Actions
 
-    @IBAction func minusPressed(_ sender: Any) {
+    @IBAction private func minusPressed(_ sender: Any) {
         count -= 1
     }
     
-    @IBAction func plusPressed(_ sender: Any) {
+    @IBAction private func plusPressed(_ sender: Any) {
         count += 1
     }
 }
