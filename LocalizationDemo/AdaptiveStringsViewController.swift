@@ -20,7 +20,7 @@ class AdaptiveStringsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textLabel.text = NSLocalizedString("ico", comment: "")
+        textLabel.text = NSLocalizedString("wwdc", comment: "")
         
         updateLabel()
         setupMString()

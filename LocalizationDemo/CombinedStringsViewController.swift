@@ -14,10 +14,9 @@ struct StringsModel {
     
     init(withPlurals pluralKeys: [String],
          count: Int = 5,
-         adaptiveKeys: [String],
-         widths: [Int]) {
+         adaptiveKeys: [String]) {
         
-        var sections = adaptiveSections(withKeys: adaptiveKeys, widths: widths)
+        var sections = adaptiveSections(withKeys: adaptiveKeys)
         sections.append(contentsOf: pluralsSections(withKeys: pluralKeys, count: count))
         
         self.sections = sections
@@ -41,7 +40,7 @@ struct StringsModel {
         return sections
     }
     
-    private func adaptiveSections(withKeys keys: [String], widths: [Int]) -> [Section] {
+    private func adaptiveSections(withKeys keys: [String]) -> [Section] {
         var sections: [Section] = []
         
         for key in keys {
@@ -57,9 +56,7 @@ class CombinedStringsViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
     
-    private let model = StringsModel(withPlurals: ["message_months", "days"],
-                                         adaptiveKeys: ["ico"],
-                                         widths: [20, 25, 50]) // <-- number of "M"
+    private let model = StringsModel(withPlurals: ["message_months", "days", "long_message"], adaptiveKeys: ["wwdc"])
     
     override func viewDidLoad() {
         super.viewDidLoad()

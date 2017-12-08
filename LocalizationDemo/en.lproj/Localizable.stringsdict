@@ -2,16 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ico</key>
+	<key>wwdc</key>
 	<dict>
 		<key>NSStringVariableWidthRuleType</key>
 		<dict>
 			<key>20</key>
-			<string>ICO</string>
+			<string>WWDC</string>
 			<key>25</key>
-			<string>Initial Coin Offering</string>
+			<string>Apple Worldwide Developers Conference</string>
 			<key>50</key>
-			<string>Initial Coin Offering (ICO)</string>
+			<string>Apple Worldwide Developers Conference (WWDC)</string>
+		</dict>
+	</dict>
+	<key>long_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>I have %#@dogs@ and %#@cats@</string>
+		<key>dogs</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>one dog</string>
+			<key>other</key>
+			<string>%d dogs</string>
+		</dict>
+		<key>cats</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>one cat</string>
+			<key>other</key>
+			<string>%d cats</string>
 		</dict>
 	</dict>
 	<key>days</key>
@@ -33,8 +60,8 @@
 	<key>message_months</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@days@</string>
-		<key>days</key>
+		<string>%#@value@</string>
+		<key>value</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
 			<string>NSStringPluralRuleType</string>
