@@ -15,9 +15,11 @@ struct MenuItem {
 
 class MenuViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     
-    private let items = [MenuItem(title: "Combined", segueIdentifier: "combined")]
+    private let items = [MenuItem(title: "Plurals", segueIdentifier: "plurals"),
+                         MenuItem(title: "Adaptive strings", segueIdentifier: "adaptive"),
+                         MenuItem(title: "Combined strings", segueIdentifier: "combined")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

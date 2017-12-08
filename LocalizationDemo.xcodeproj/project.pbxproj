@@ -17,6 +17,7 @@
 		9C6866951F9DBFFE00976D62 /* LocalizationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6866941F9DBFFE00976D62 /* LocalizationDemoUITests.swift */; };
 		9C6866A61F9DC79400976D62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C6866A81F9DC79400976D62 /* InfoPlist.strings */; };
 		9CB46C611FDA94A4008FFDB7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB46C601FDA94A4008FFDB7 /* MenuViewController.swift */; };
+		9CB46C631FDA9B4E008FFDB7 /* PluralsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB46C621FDA9B4E008FFDB7 /* PluralsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9C6866A31F9DC1F900976D62 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9C6866A71F9DC79400976D62 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CB46C601FDA94A4008FFDB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9CB46C621FDA9B4E008FFDB7 /* PluralsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9CFD63C11FCB34A400C7AF73 /* Info */,
 				9C6866741F9DBFFE00976D62 /* AppDelegate.swift */,
 				9CB46C601FDA94A4008FFDB7 /* MenuViewController.swift */,
+				9CB46C621FDA9B4E008FFDB7 /* PluralsViewController.swift */,
 				9C6866761F9DBFFE00976D62 /* CombinedStringsViewController.swift */,
 				9C68667B1F9DBFFE00976D62 /* Assets.xcassets */,
 				9C6866781F9DBFFE00976D62 /* Main.storyboard */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB46C631FDA9B4E008FFDB7 /* PluralsViewController.swift in Sources */,
 				9C6866771F9DBFFE00976D62 /* CombinedStringsViewController.swift in Sources */,
 				9CB46C611FDA94A4008FFDB7 /* MenuViewController.swift in Sources */,
 				9C6866751F9DBFFE00976D62 /* AppDelegate.swift in Sources */,

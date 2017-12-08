@@ -17,8 +17,8 @@ struct StringsModel {
          adaptiveKeys: [String],
          widths: [Int]) {
         
-        var sections = pluralsSections(withKeys: pluralKeys, count: count)
-        sections.append(contentsOf: adaptiveSections(withKeys: adaptiveKeys, widths: widths))
+        var sections = adaptiveSections(withKeys: adaptiveKeys, widths: widths)
+        sections.append(contentsOf: pluralsSections(withKeys: pluralKeys, count: count))
         
         self.sections = sections
     }
@@ -55,9 +55,9 @@ struct StringsModel {
 
 class CombinedStringsViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     
-    fileprivate let model = StringsModel(withPlurals: ["message_months", "days"],
+    private let model = StringsModel(withPlurals: ["message_months", "days"],
                                          adaptiveKeys: ["ico"],
                                          widths: [20, 25, 50]) // <-- number of "M"
     
