@@ -59,6 +59,7 @@
 		9CB46C601FDA94A4008FFDB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		9CB46C621FDA9B4E008FFDB7 /* PluralsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsViewController.swift; sourceTree = "<group>"; };
 		9CB46C641FDA9FAD008FFDB7 /* AdaptiveStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveStringsViewController.swift; sourceTree = "<group>"; };
+		9CB46C661FDADD92008FFDB7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +240,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 9C6866681F9DBFFE00976D62;
 			productRefGroup = 9C6866721F9DBFFE00976D62 /* Products */;
@@ -330,6 +332,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9C499E321FC8882A00F9F5FB /* en */,
+				9CB46C661FDADD92008FFDB7 /* ru */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";

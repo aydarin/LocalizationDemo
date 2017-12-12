@@ -56,7 +56,7 @@ class CombinedStringsViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
     
-    private let model = StringsModel(withPlurals: ["message_months", "days", "long_message"], adaptiveKeys: ["wwdc"])
+    private let model = StringsModel(withPlurals: ["message_months", "days", "long_message"], adaptiveKeys: ["gdp"])
     
     override func viewDidLoad() {
         super.viewDidLoad()

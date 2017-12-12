@@ -7,17 +7,17 @@
 		<key>NSStringVariableWidthRuleType</key>
 		<dict>
 			<key>20</key>
-			<string>GDP</string>
+			<string>ВВП</string>
 			<key>25</key>
-			<string>Gross Domestic Product</string>
+			<string>Валовой внутренний продукт</string>
 			<key>50</key>
-			<string>Gross Domestic Product (GDP)</string>
+			<string>Валовой внутренний продукт (ВВП)</string>
 		</dict>
 	</dict>
 	<key>long_message</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>I have %#@dogs@ and %#@cats@</string>
+		<string> У меня есть %#@dogs@ и %#@cats@</string>
 		<key>dogs</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
@@ -25,9 +25,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>one dog</string>
+			<string>%d собака</string>
+			<key>few</key>
+			<string>%d собаки</string>
+			<key>many</key>
+			<string>%d собак</string>
 			<key>other</key>
-			<string>%d dogs</string>
+			<string>%d собак</string>
 		</dict>
 		<key>cats</key>
 		<dict>
@@ -36,9 +40,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>one cat</string>
+			<string>%d кошка</string>
+			<key>few</key>
+			<string>%d кошки</string>
+			<key>many</key>
+			<string>%d кошек</string>
 			<key>other</key>
-			<string>%d cats</string>
+			<string>%d кошек</string>
 		</dict>
 	</dict>
 	<key>days</key>
@@ -52,9 +60,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d day</string>
+			<string>%d день</string>
+			<key>few</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
 			<key>other</key>
-			<string>%d days</string>
+			<string>%d дней</string>
 		</dict>
 	</dict>
 	<key>message_months</key>
@@ -68,9 +80,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>One month</string>
+			<string>%d месяц</string>
+			<key>few</key>
+			<string>%d месяца</string>
+			<key>many</key>
+			<string>%d месяцев</string>
 			<key>other</key>
-			<string>%d months</string>
+			<string>%d месяцев</string>
 		</dict>
 	</dict>
 </dict>
