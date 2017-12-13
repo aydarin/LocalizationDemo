@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gdp</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>20</key>
+			<string>PKB</string>
+			<key>25</key>
+			<string>Produkt krajowy brutto</string>
+			<key>50</key>
+			<string>Produkt krajowy brutto (PKB)</string>
+		</dict>
+	</dict>
+	<key>long_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Mam %#@dogs@ i %#@cats@</string>
+		<key>dogs</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d psa</string>
+			<key>few</key>
+			<string>%d psy</string>
+			<key>many</key>
+			<string>%d psów</string>
+			<key>other</key>
+			<string>%d psa</string>
+		</dict>
+		<key>cats</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d kota</string>
+			<key>few</key>
+			<string>%d koty</string>
+			<key>many</key>
+			<string>%d kotów</string>
+			<key>other</key>
+			<string>%d kota</string>
+		</dict>
+	</dict>
+	<key>days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d dzień</string>
+			<key>few</key>
+			<string>%d dni</string>
+			<key>many</key>
+			<string>%d dni</string>
+			<key>other</key>
+			<string>%d dnia</string>
+		</dict>
+	</dict>
+	<key>message_months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d miesiąc</string>
+			<key>few</key>
+			<string>%d miesiące</string>
+			<key>many</key>
+			<string>%d miesięcy</string>
+			<key>other</key>
+			<string>%d miesiąca</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
