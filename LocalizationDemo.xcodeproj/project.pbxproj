@@ -52,6 +52,7 @@
 		9C6866901F9DBFFE00976D62 /* LocalizationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6866941F9DBFFE00976D62 /* LocalizationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDemoUITests.swift; sourceTree = "<group>"; };
 		9C6866961F9DBFFE00976D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7DABB91FE3058A005BC7E7 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = pl; path = pl.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		9CB46C601FDA94A4008FFDB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		9CB46C621FDA9B4E008FFDB7 /* PluralsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsViewController.swift; sourceTree = "<group>"; };
 		9CB46C641FDA9FAD008FFDB7 /* AdaptiveStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveStringsViewController.swift; sourceTree = "<group>"; };
@@ -235,6 +236,7 @@
 			knownRegions = (
 				en,
 				ru,
+				pl,
 			);
 			mainGroup = 9C6866681F9DBFFE00976D62;
 			productRefGroup = 9C6866721F9DBFFE00976D62 /* Products */;
@@ -326,6 +328,7 @@
 			children = (
 				9C499E321FC8882A00F9F5FB /* en */,
 				9CB46C661FDADD92008FFDB7 /* ru */,
+				9C7DABB91FE3058A005BC7E7 /* pl */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
